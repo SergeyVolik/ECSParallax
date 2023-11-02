@@ -1,15 +1,13 @@
 {
   "name": "com.sv.parallax",
-  "displayName": "SergeyVolik - Unity ECS Parallax",
+  "displayName": "Unity ECS Parallax",
   "version": "0.5.0",
   "unity": "2022.3",
   "description": "Unity ECS Parallax",
   "keywords": [
-    "unity",
-	"unity3d",
-	"upm",
-    "sergeyvolik",
-    "utility"
+    "ECS",
+    "DOTS",
+    "Parallax"
   ],
   "homepage": "git@github.com:SergeyVolik/com.sv.parallax.git",
   "bugs": {
@@ -20,8 +18,22 @@
     "url": "git+ssh://git@github.com:SergeyVolik/com.sv.parallax.git"
   },
   "license": "MIT",
-  "author": "SergeyVolik (https://github.com/SergeyVolik)",
+  "author": {
+    "name": "Sergey Volik",
+    "email": "volik.sergey112@gmail.com",
+    "url": "https://github.com/116370/com.dots.dispatcher"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "samples": [
+    {
+      "displayName": "Sample1",
+      "description": "Parallax Sample",
+      "path": "Samples~/Sample1"
+    }
+  ],
+  "dependencies": {
+    "com.unity.entities": "1.0.16"
   }
 }
