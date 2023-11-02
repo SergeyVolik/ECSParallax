@@ -6,7 +6,7 @@ namespace Prototype.Parallax
 {
     [WorldSystemFilter(WorldSystemFilterFlags.BakingSystem)]
     [BurstCompile]
-    public partial struct BakeParallaxSystem : ISystem
+    public partial struct ParallaxBakerSystem : ISystem
     {
         public void OnCreate(ref SystemState state) { }
 
