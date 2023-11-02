@@ -1,7 +1,7 @@
 {
-  "name": "Unity.com.{{COMPANY}}.{{REPOSITORY_NAME}}.Editor.Tests",
+  "name": "Unity.com.sergeyvolik.ecsparallax.Tests",
   "references": [
-    "Unity.com.{{COMPANY}}.{{REPOSITORY_NAME}}"
+    "Unity.com.sergeyvolik.ecsparallax"
   ],
   "optionalUnityReferences": [
     "TestAssemblies"
